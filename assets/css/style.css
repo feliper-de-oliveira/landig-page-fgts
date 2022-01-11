@@ -4,6 +4,20 @@
 background-color: #2B2D42;
 }
 
+
+#header_logo a{ 
+text-decoration: none;
+color: #fff;
+font-size: 2em;
+}
+
+#header_logo a:hover{ 
+  text-decoration: none;
+  color: rgb(212, 227, 247);
+  font-size: 2.1em;
+  }
+
+
 /* HERO */
 
 #hero{
@@ -58,7 +72,7 @@ background-color: #2B2D42;
  
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding: 5px;
 color: #EBF5DF;
 text-shadow: 0.5px 0.5px 1px black
@@ -74,18 +88,47 @@ text-shadow: 0.5px 0.5px 1px black
 #cont_cond h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 2.2em;
-  padding-bottom: 20px;
+  font-size: 2em;
   color:#2B2D42 ;
 }
 
 #cont_cond ul{
   list-style: none;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1.2em;
   }
 
-#cont_cond ul li {
-  padding: 3px;
-}
+  .main_succ {
+    background-color: #EBF5DF;
+  }
+
+  .main_succ #main_succ_text h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color:#2B2D42;
+  }
+
+  /* Main Cond*/
+
+
+  .main_address #location h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color:#2B2D42 ;
+  }
+
+  .main_address #location iframe {
+    height: 300px;
+    width: 400px;
+  }
+
+  .main_address #ra_soc p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color:#2B2D42 ;
+    text-shadow: 1px 1px 2px #575353
+  }
